@@ -179,7 +179,7 @@ const ProductList = () => {
       console.log("in", temp[2]);
       handleFilter("name");
     } else {
-      setFilter({ ...filter, name: "" });
+      setFilter({ ...filter, name: ""  });
     }
   }, [location]);
 
@@ -224,7 +224,7 @@ const ProductList = () => {
           </div>
           <BrandContainer>
             <p>
-              <b>Brands</b>
+              <b>Categories</b>
             </p>
             <CheckboxContainer>
               <div>
